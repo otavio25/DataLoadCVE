@@ -14,11 +14,11 @@
 
 <p> 2 - Baixe os documento CVE no <a href='https://www.cve.org/Downloads'> site ofical </a> </p>
 <p> 3 - Copie a pasta <strong>cves</strong> para a raiz do projeto </p>
-<p> 4 - Crie na raiz do projeto um arquivo .env e adicioane dentro dele o seguinte conteúdo: </p>
+<p> 4 - Crie na raiz do projeto um arquivo .env e adicione dentro dele o seguinte conteúdo: </p>
 <blockquote> DB_DIRECTORY=adicione aqui o caminho respectivo da pasta <strong>cves</strong></blockquote>
 <blockquote>HOST=adicione aqui o host do seu servidor</blockquote>
 <p> Exemplo: </p>
-<blockquote>DB_DIRECTORY=/home/otavio/Documentos/DataLoadCVE/cves/</blockquote>
+<blockquote>DIRECTORY_CVES=/home/otavio/Documentos/DataLoadCVE/cves/</blockquote>
 <blockquote>HOST=127.0.1.1</blockquote>
 <p> 5 - Execute o seguinte comando para instalar os pacotes: </p>
 <blockquote> npm install </blockquote>
